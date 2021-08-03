@@ -2,7 +2,8 @@ const styles={
     container:{
        width:'100%',
        padding:10,
-       bottom:'-60%'
+       bottom:0,
+       top:"55%"
     },
     button:{
        width:'100%',

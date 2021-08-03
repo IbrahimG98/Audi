@@ -17,6 +17,13 @@ const styles={
       width:'100%',
       alignItems:'center'
     },
+    buttons:{
+     display:'flex',
+     flexDirection:'column',
+     position:'fixed',
+     width:'100%',
+     bottom:0
+    },
     title:{
       fontSize:35,
       fontWeight:'600'
