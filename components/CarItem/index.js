@@ -5,12 +5,13 @@ import styles from './styles';
 
 const index =(props)=>{
 
+  const {image,title,price}=props.car;
     return (
         <View style={styles.carContainer}>
-        <ImageBackground source={props.image} style={styles.image}  />
+        <ImageBackground source={image} style={styles.image}  />
       <View style={styles.titles}>
-      <Text style={styles.title}>{props.title}</Text>
-      <Text style={styles.subtitle}>Starting at {props.price}$</Text>
+      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.subtitle}>Starting at {price}$</Text>
       </View>
 
       <View style={styles.buttons}>

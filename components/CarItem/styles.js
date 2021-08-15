@@ -1,8 +1,9 @@
+import { Dimensions } from "react-native";
 
 const styles={
     carContainer:
     {
-      height:'100%',
+      height:Dimensions.get('window').height,
       width:'100%'
     },
     image:{
@@ -18,11 +19,9 @@ const styles={
       alignItems:'center'
     },
     buttons:{
-     display:'flex',
-     flexDirection:'column',
-     position:'fixed',
+     position:'absolute',
      width:'100%',
-     bottom:0
+     bottom:50
     },
     title:{
       fontSize:35,
@@ -30,7 +29,7 @@ const styles={
     },
     subtitle:{
       fontSize:17,
-      color:"#5c5e62"
+      color:"white"
     }
 }
 

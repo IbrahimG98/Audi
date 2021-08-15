@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,ImageBackground} from 'react-native';
-import Cars from './components/CarItem';
+import CarsList from './components/CarsList/CarsList';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Cars image={require('./assets/AudiCarPics/AudiRS7.jpg')} title={"Audi A7"} price={"70,000"} />
+    // <View style={styles.container}>
+    //   <CarsList />
 
-      <StatusBar style="auto" />
+    //   <StatusBar style="auto" />
+    // </View>
+    <View>
+       <CarsList />
     </View>
   );
 }
