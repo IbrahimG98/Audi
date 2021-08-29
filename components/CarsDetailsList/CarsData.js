@@ -23,4 +23,20 @@ export default [
     description:
       "This is a test description for Audi A6. A modern luxury limousine which costs 73,000 $.",
   },
+  {
+    id:"4",
+    title: "Audi A8",
+    price: "95,000",
+    image: require("../../assets/AudiCarPics/AudiA8DetailsGray.jpg"),
+    description:
+      "This is a test description for Audi A8. A modern luxury limousine which costs 95,000 $.",
+  },
+  {
+    id:"5",
+    title: "Audi A7",
+    price: "80,000",
+    image: require("../../assets/AudiCarPics/AudiA7DetailsBlack.jpg"),
+    description:
+      "This is a test description for Audi A7. A modern luxury sport car which costs 80,000 $.",
+  }
 ];
