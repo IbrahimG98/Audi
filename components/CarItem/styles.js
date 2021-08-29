@@ -1,10 +1,23 @@
 import { Dimensions } from "react-native";
 
 const styles={
+    parent:
+    {
+      width:'100%',
+      height:'100%',
+      margin: 0
+
+    },
     carContainer:
     {
       height:Dimensions.get('window').height,
       width:'100%'
+    },
+    modal:{
+      margin:'auto',
+      height:'100%',
+      width:'100%',
+      zIndex:1000
     },
     image:{
       width:'100%',
