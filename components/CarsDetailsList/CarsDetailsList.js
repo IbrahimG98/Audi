@@ -6,6 +6,7 @@ import carsData from "./CarsData";
 
 const CarsDetailsList = (props) => {
   let [filteredArray, setFilteredArray] = useState();
+  let [nullcheck,setNullCheck]=useState(false);
   useEffect(() => {
     let copyArray = [];
     carsData.forEach((item) => {
